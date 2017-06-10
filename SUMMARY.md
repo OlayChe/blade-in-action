@@ -14,7 +14,7 @@
 * [第四章](chapter4.md)
   * [Section4.1](chapter4/section4.1.md)
   * [Section4.2](chapter4/section4.2.md)
-* 附录
+* [附录](fu-lu.md)
   * [Section5.1](chapter5/section5.1.md)
   * [Section5.2](chapter5/section5.2.md)
 
