@@ -44,15 +44,15 @@
   * [7.2 部署到服务器](chapter7/7.2-deploy-to-server.md)
 
 * [第8章 实战图片社交](chapter8/README.md)
-  * [8.1 项目规划](chapter8/8.1-.md)
-  * [8.2 创建项目](chapter8/8.1-.md)
-  * [8.3 前端规划](chapter8/8.1-.md)
-  * [8.4 用户认证](chapter8/8.1-.md)
-  * [8.4 用户认证](chapter8/8.1-.md)
-  * [8.4 用户认证](chapter8/8.1-.md)
-  * [8.4 用户认证](chapter8/8.1-.md)
-  * [8.4 用户认证](chapter8/8.1-.md)
-
+  * [8.1 项目规划](chapter8/8.1-project-plan.md)
+  * [8.2 创建项目](chapter8/8.2-create-project.md)
+  * [8.3 前端规划](chapter8/8.3-front-plan.md)
+  * [8.4 用户认证](chapter8/8.4-user-auth.md)
+  * [8.5 发布照片流](chapter8/8.5-save-photo-feed.md)
+  * [8.6 展示照片流](chapter8/8.6-show-photo-feed.md)
+  * [8.7 修改和删除](chapter8/8.1-update-delete.md)
+  * [8.8 细节优化](chapter8/8.1-optimize.md)
+  * [8.9 打包部署](chapter8/8.1-package-deploy.md)
   
 * [第9章 其他资源](other/README.md)
 
