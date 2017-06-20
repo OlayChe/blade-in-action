@@ -1,0 +1,1003 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>1.1 创建一个Blade工程 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="1.2-run-hello-world.html" />
+    
+    
+    <link rel="prev" href="README.md" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    内容摘要
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../blade.html">
+            
+                <a href="../blade.html">
+            
+                    
+                    Blade简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="README.md">
+            
+                <span>
+            
+                    
+                    第1章 快速上手
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.3.1" data-path="1.1-create-blade-application.html">
+            
+                <a href="1.1-create-blade-application.html">
+            
+                    
+                    1.1 创建一个Blade工程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="1.2-run-hello-world.html">
+            
+                <a href="1.2-run-hello-world.html">
+            
+                    
+                    1.2 运行Hello World
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="1.3-mvc-web-architecture.md">
+            
+                <span>
+            
+                    
+                    1.3 Mvc应用架构
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../chapter2/">
+            
+                <a href="../chapter2/">
+            
+                    
+                    第2章 程序的基本结构
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../chapter2/2.1-initialize.md">
+            
+                <span>
+            
+                    
+                    2.1 初始化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../chapter2/2.2-register-route.md">
+            
+                <span>
+            
+                    
+                    2.2 注册路由
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../chapter2/2.3-start-server.md">
+            
+                <span>
+            
+                    
+                    2.3 启动服务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../chapter2/2.4-static-resource.md">
+            
+                <span>
+            
+                    
+                    2.4 静态资源
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../chapter2/2.5-complete-program.md">
+            
+                <span>
+            
+                    
+                    2.5 完整的程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../chapter3/">
+            
+                <a href="../chapter3/">
+            
+                    
+                    第3章 核心概念
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../chapter3/3.1-request.md">
+            
+                <span>
+            
+                    
+                    3.2 请求
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../chapter3/3.2-response.md">
+            
+                <span>
+            
+                    
+                    3.3 响应
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../chapter3/3.3-ioc.md">
+            
+                <span>
+            
+                    
+                    3.3 IOC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../chapter3/3.4-middlewares.md">
+            
+                <span>
+            
+                    
+                    3.4 中间件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../chapter3/3.5-webhook.md">
+            
+                <span>
+            
+                    
+                    3.5 钩子
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="../chapter3/3.6-config.md">
+            
+                <span>
+            
+                    
+                    3.6 配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../chapter4/">
+            
+                <a href="../chapter4/">
+            
+                    
+                    第4章 模板引擎
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../chapter4/4.1-default-tempalte.md">
+            
+                <span>
+            
+                    
+                    4.1 默认模板引擎
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../chapter4/4.2-jetbrick.md">
+            
+                <span>
+            
+                    
+                    4.2 JetbrickTemplate
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../chapter4/4.3-velocity.md">
+            
+                <span>
+            
+                    
+                    4.3 Velocity
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../chapter4/4.4-other.md">
+            
+                <span>
+            
+                    
+                    4.4 其他引擎
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../chapter4/4.5-custom-error-page.md">
+            
+                <span>
+            
+                    
+                    4.5 自定义错误页
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../chapter5/">
+            
+                <a href="../chapter5/">
+            
+                    
+                    第5章 web表单
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../chapter5/5.1-accept-form-request.md">
+            
+                <span>
+            
+                    
+                    5.1 接收表单请求
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../chapter5/5.2-renderjson.md">
+            
+                <span>
+            
+                    
+                    5.2 渲染JSON
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../chapter5/5.3-render-html.md">
+            
+                <span>
+            
+                    
+                    5.3 渲染成HTML
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../chapter5/5.4-csrf-token.md">
+            
+                <span>
+            
+                    
+                    5.4 跨站请求保护
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../chapter6/README.md">
+            
+                <span>
+            
+                    
+                    第6章 数据库
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../chapter6/6.1-sql-database.md">
+            
+                <span>
+            
+                    
+                    6.1 SQL数据库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../chapter6/6.2-nosql.md">
+            
+                <span>
+            
+                    
+                    6.2 NoSQL数据库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../chapter6/6.3-database-opt.md">
+            
+                <span>
+            
+                    
+                    6.3 数据库操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="../chapter6/6.4-code-generator.md">
+            
+                <span>
+            
+                    
+                    6.4 代码生成器
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../chapter7/README.md">
+            
+                <span>
+            
+                    
+                    第7章 部署发布
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../chapter7/7.1-package.md">
+            
+                <span>
+            
+                    
+                    7.1 项目打包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../chapter7/7.2-deploy-to-server.md">
+            
+                <span>
+            
+                    
+                    7.2 部署到服务器
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../chapter8/README.md">
+            
+                <span>
+            
+                    
+                    第8章 实战图片社交
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../chapter8/8.1-project-plan.md">
+            
+                <span>
+            
+                    
+                    8.1 项目规划
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="../chapter8/8.2-create-project.md">
+            
+                <span>
+            
+                    
+                    8.2 创建项目
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3" data-path="../chapter8/8.3-front-plan.md">
+            
+                <span>
+            
+                    
+                    8.3 前端规划
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.4" data-path="../chapter8/8.4-user-auth.md">
+            
+                <span>
+            
+                    
+                    8.4 用户认证
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.5" data-path="../chapter8/8.5-save-photo-feed.md">
+            
+                <span>
+            
+                    
+                    8.5 发布照片流
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.6" data-path="../chapter8/8.6-show-photo-feed.md">
+            
+                <span>
+            
+                    
+                    8.6 展示照片流
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.7" data-path="../chapter8/8.1-update-delete.md">
+            
+                <span>
+            
+                    
+                    8.7 修改和删除
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.8" data-path="../chapter8/8.1-optimize.md">
+            
+                <span>
+            
+                    
+                    8.8 细节优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.9" data-path="../chapter8/8.1-package-deploy.md">
+            
+                <span>
+            
+                    
+                    8.9 打包部署
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../other/README.md">
+            
+                <span>
+            
+                    
+                    第9章 其他资源
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../appendix/">
+            
+                <a href="../appendix/">
+            
+                    
+                    附录
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1" data-path="../appendix/jdk8.html">
+            
+                <a href="../appendix/jdk8.html">
+            
+                    
+                    jdk8
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2" data-path="../appendix/netty4.html">
+            
+                <a href="../appendix/netty4.html">
+            
+                    
+                    netty4
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >1.1 创建一个Blade工程</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="11-&#x521B;&#x5EFA;&#x4E00;&#x4E2A;blade&#x5DE5;&#x7A0B;">1.1 &#x521B;&#x5EFA;&#x4E00;&#x4E2A;Blade&#x5DE5;&#x7A0B;</h1>
+<p>&#x4F5C;&#x8005;&#x8BA4;&#x4E3A;&#x6BCF;&#x4E00;&#x4E2A;&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x90FD;&#x5E94;&#x8BE5;&#x6709;&#x4E00;&#x4E2A;&#x5408;&#x9002;&#x7684; <code>&#x5305;&#x7BA1;&#x7406;&#x5668;</code>&#xFF0C;&#x6BD4;&#x5982;nodejs&#x4E2D;&#x7684;<code>npm</code>&#xFF0C;python&#x7684;<code>pip</code>&#xFF0C;ruby&#x7684;<code>gem</code>&#x7B49;&#x7B49;&#xFF0C;&#x65E9;&#x671F;&#x7684;Java&#x5F00;&#x53D1;&#x8005;&#x53EF;&#x80FD;&#x4F1A;&#x4F7F;&#x7528;<code>Ant</code>&#x8FDB;&#x884C;&#x9879;&#x76EE;&#x7684;&#x6784;&#x5EFA;&#xFF0C;&#x4F46;&#x5728;&#x56FD;&#x5185;&#x76EE;&#x524D;&#x6700;&#x6D41;&#x884C;&#x8FD8;&#x5C5E;<code>maven</code>&#x4E86;&#xFF0C;&#x56FD;&#x5916;&#x7528;<code>gradle</code>&#x7684;&#x4EBA;&#x633A;&#x591A;&#xFF0C;&#x4E0D;&#x9002;&#x5408;&#x56FD;&#x60C5;&#x8FD9;&#x91CC;&#x5C31;&#x4E0D;&#x8BB2;&#x89E3;&#x4E86;&#x3002;</p>
+<p>&#x5728;&#x5F00;&#x59CB;&#x4E00;&#x4E2A;Blade&#x5DE5;&#x7A0B;&#x4E4B;&#x524D;&#x9996;&#x5148;&#x786E;&#x4FDD;&#x4F60;&#x5DF2;&#x7ECF;&#x5B89;&#x88C5;&#x4E86;maven&#xFF0C;&#x5982;&#x679C;&#x8FD8;&#x6CA1;&#x6709;&#x5B89;&#x88C5;&#x6216;&#x4E86;&#x89E3;&#xFF0C;&#x53EF;&#x4EE5;&#x770B;&#x770B; <a href="http://www.ibofine.com/mavenbook/index.html" target="_blank">maven&#x4F7F;&#x7528;&#x6307;&#x5357;</a></p>
+<h2 id="&#x5FC5;&#x987B;&#x73AF;&#x5883;">&#x5FC5;&#x987B;&#x73AF;&#x5883;</h2>
+<ul>
+<li>jdk8</li>
+<li>maven</li>
+<li>idea/eclipse</li>
+</ul>
+<h2 id="&#x642D;&#x5EFA;blade&#x5DE5;&#x7A0B;&#x7684;&#x6B65;&#x9AA4;">&#x642D;&#x5EFA;Blade&#x5DE5;&#x7A0B;&#x7684;&#x6B65;&#x9AA4;</h2>
+<ol>
+<li>&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x666E;&#x901A;maven&#x5DE5;&#x7A0B;(&#x9700;&#x8BBE;&#x7F6E;JDK&#x7F16;&#x8BD1;&#x7248;&#x672C;&#x4E3A;1.8)</li>
+<li>&#x52A0;&#x5165;blade-mvc&#x4F9D;&#x8D56;</li>
+</ol>
+<h2 id="&#x5728;eclipse&#x521B;&#x5EFA;blade&#x5DE5;&#x7A0B;">&#x5728;Eclipse&#x521B;&#x5EFA;Blade&#x5DE5;&#x7A0B;</h2>
+<p><strong>&#x9009;&#x62E9;&#x521B;&#x5EFA;maven&#x9AA8;&#x67B6;&#x5DE5;&#x7A0B;</strong></p>
+<p><img src="https://ooo.0o0.ooo/2017/06/20/594941df9dced.png" width="500"></p>
+<p><strong>&#x8FD9;&#x91CC;&#x9009;&#x62E9;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x6700;&#x7B80;&#x5355;&#x7684;quickstart&#x5DE5;&#x7A0B;</strong></p>
+<p><img src="https://ooo.0o0.ooo/2017/06/20/59494233e7f23.png" width="500"></p>
+<p><strong>&#x8F93;&#x5165;GroupId&#x548C;ArtifactId&#x4EE5;&#x53CA;&#x5305;&#x540D;</strong></p>
+<p><img src="https://ooo.0o0.ooo/2017/06/20/5949428e09999.png" width="500"></p>
+<p>&#x6B64;&#x65F6;&#x4F60;&#x770B;&#x5230;&#x7684;&#x9879;&#x76EE;&#x7ED3;&#x6784;&#x5E94;&#x8BE5;&#x662F;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p><img src="https://ooo.0o0.ooo/2017/06/20/5949430c23e93.png" width="500"></p>
+<p>&#x5B9E;&#x9645;&#x4E0A;&#x8FD9;&#x6837;&#x7684;&#x9879;&#x76EE;&#x7ED3;&#x6784;&#x662F;&#x6709;&#x95EE;&#x9898;&#x7684;&#xFF0C;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x9ED8;&#x8BA4;&#x7684;JDK&#x7F16;&#x8BD1;&#x7248;&#x672C;&#x662F;1.5&#xFF0C;&#x8FD9;&#x65F6;&#x5019;&#x6211;&#x4EEC;&#x901A;&#x8FC7;&#x4E00;&#x4E2A;maven&#x63D2;&#x4EF6;&#x5C06;&#x7F16;&#x8BD1;&#x7248;&#x672C;&#x8C03;&#x6574;&#x81F3;1.8&#xFF0C;&#x5728; <code>pom.xml</code> &#x4E2D;&#x52A0;&#x5165; maven-compiler-plugin</p>
+<pre><code class="lang-xml"><span class="hljs-comment">&lt;!--  Compile  --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">plugin</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>org.apache.maven.plugins<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>maven-compiler-plugin<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">version</span>&gt;</span>3.1<span class="hljs-tag">&lt;/<span class="hljs-name">version</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">configuration</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">source</span>&gt;</span>1.8<span class="hljs-tag">&lt;/<span class="hljs-name">source</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">target</span>&gt;</span>1.8<span class="hljs-tag">&lt;/<span class="hljs-name">target</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">encoding</span>&gt;</span>UTF-8<span class="hljs-tag">&lt;/<span class="hljs-name">encoding</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">configuration</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">plugin</span>&gt;</span>
+</code></pre>
+<p>&#x6211;&#x5728;eclipse&#x4E0B;&#x52A0;&#x5165;&#x540E;&#x662F;&#x8FD9;&#x6837;&#x7684;</p>
+<p><img src="https://ooo.0o0.ooo/2017/06/20/59494471a5c09.png" width="500"></p>
+<p>&#x5728;&#x9879;&#x76EE;&#x4E0A;&#x53F3;&#x952E;&#x5237;&#x65B0;&#x4E0B;maven&#x914D;&#x7F6E;</p>
+<p><img src="https://ooo.0o0.ooo/2017/06/20/59494550b5b3f.png" width="520"></p>
+<p>&#x7136;&#x540E;&#x52A0;&#x5165; <code>blade-mvc</code> &#x7684;&#x4F9D;&#x8D56;&#xFF0C;&#x5177;&#x4F53;&#x7248;&#x672C;&#x53EF;&#x4EE5;&#x5728; <a href="https://github.com/biezhi/blade" target="_blank">github</a> &#x67E5;&#x770B;&#x6216;&#x8005;&#x5728; <a href="http://search.maven.org/#search%7Cga%7C1%7Cblade-mvc" target="_blank">maven</a> &#x4ED3;&#x5E93;&#x641C;&#x7D22;&#xFF0C;&#x5C3D;&#x91CF;&#x4F7F;&#x7528;&#x8F83;&#x65B0;&#x7248;&#x672C;&#xFF0C;&#x6211;&#x5F53;&#x524D;&#x4F7F;&#x7528;&#x7684;&#x7248;&#x672C;&#x662F; <code>2.0.0-beta</code></p>
+<pre><code class="lang-xml"><span class="hljs-tag">&lt;<span class="hljs-name">dependency</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>com.bladejava<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>blade-mvc<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">version</span>&gt;</span>2.0.0-beta<span class="hljs-tag">&lt;/<span class="hljs-name">version</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">dependency</span>&gt;</span>
+</code></pre>
+<p>ok&#xFF0C;&#x5927;&#x529F;&#x544A;&#x6210;&#x4E86;&#xFF0C;&#x770B;&#x8D77;&#x6765;&#x4E0A;&#x9762;&#x5F88;&#x591A;&#x56FE;&#x5176;&#x5B9E;&#x5BF9;&#x4E8E;&#x4E00;&#x4E2A;&#x719F;&#x7EC3;J2EE&#x5F00;&#x53D1;&#x7684;&#x5F00;&#x53D1;&#x8005;&#x64CD;&#x4F5C;&#x8D77;&#x6765;&#x4E5F;&#x662F;&#x5206;&#x5206;&#x949F;&#x7684;&#xFF0C;&#x4F5C;&#x8005;&#x5C3D;&#x53EF;&#x80FD;&#x8BB2;&#x7684;&#x8BE6;&#x7EC6;&#x4E00;&#x4E9B;&#xFF0C;&#x907F;&#x514D;&#x5927;&#x5BB6;&#x5728;&#x7B2C;&#x4E00;&#x6B65;&#x7684;&#x65F6;&#x5019;&#x51FA;&#x73B0;&#x4EC0;&#x4E48;&#x9519;&#x8BEF;&#x3002;</p>
+<h2 id="&#x5728;idea&#x521B;&#x5EFA;blade&#x5DE5;&#x7A0B;">&#x5728;Idea&#x521B;&#x5EFA;Blade&#x5DE5;&#x7A0B;</h2>
+<p><img src="https://ooo.0o0.ooo/2017/06/21/5949486f30eea.png" width="500"></p>
+<p><img src="https://ooo.0o0.ooo/2017/06/21/594948a5dfdf9.png" width="500"></p>
+<p>&#x548C;&#x4E0A;&#x9762;&#x5728; <code>eclipse</code> &#x4E0B;&#x64CD;&#x4F5C;&#x662F;&#x4E00;&#x6837;&#x7684;&#xFF0C;&#x52A0;&#x5165;&#x7F16;&#x8BD1;&#x63D2;&#x4EF6;&#x4FDD;&#x8BC1;1.8&#x7248;&#x672C;&#xFF0C;&#x7136;&#x540E;&#x52A0;&#x5165; <code>blade-mvc</code> &#x4F9D;&#x8D56;&#x3002;</p>
+<p>&#x592A;&#x68D2;&#x4E86;&#xFF0C;&#x9879;&#x76EE;&#x521B;&#x5EFA;&#x6210;&#x529F;&#x4E86;&#xFF0C;&#x53BB;&#x8BD5;&#x8BD5;&#x7F16;&#x5199;&#x7B2C;&#x4E00;&#x4E2A;<a href="1.2-run-hello-world.html">Hello World</a>&#x7A0B;&#x5E8F;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="README.md" class="navigation navigation-prev " aria-label="Previous page: 第1章 快速上手">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="1.2-run-hello-world.html" class="navigation navigation-next " aria-label="Next page: 1.2 运行Hello World">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"1.1 创建一个Blade工程","level":"1.3.1","depth":2,"next":{"title":"1.2 运行Hello World","level":"1.3.2","depth":2,"path":"chapter1/1.2-run-hello-world.md","ref":"chapter1/1.2-run-hello-world.md","articles":[]},"previous":{"title":"第1章 快速上手","level":"1.3","depth":1,"path":"chapter1/README.md","ref":"chapter1/README.md","articles":[{"title":"1.1 创建一个Blade工程","level":"1.3.1","depth":2,"path":"chapter1/1.1-create-blade-application.md","ref":"chapter1/1.1-create-blade-application.md","articles":[]},{"title":"1.2 运行Hello World","level":"1.3.2","depth":2,"path":"chapter1/1.2-run-hello-world.md","ref":"chapter1/1.2-run-hello-world.md","articles":[]},{"title":"1.3 Mvc应用架构","level":"1.3.3","depth":2,"path":"chapter1/1.3-mvc-web-architecture.md","ref":"chapter1/1.3-mvc-web-architecture.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter1/1.1-create-blade-application.md","mtime":"2017-06-20T16:20:29.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-06-20T16:19:49.736Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
