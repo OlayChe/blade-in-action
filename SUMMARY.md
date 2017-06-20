@@ -1,7 +1,7 @@
 # Summary
 
-* [本书介绍](README.md)
-* [作者简介](README.md#作者简介)
+* [内容摘要](README.md)
+* [Blade简介](blade.md)
 * [第1章 快速上手](chapter1/README.md)
   * [1.1 创建一个Blade工程](chapter1/1.1-create-blade-application.md)
   * [1.2 运行Hello World](chapter1/1.2-run-hello-world.md)
